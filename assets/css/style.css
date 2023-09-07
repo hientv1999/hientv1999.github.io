@@ -971,6 +971,7 @@ section {
   z-index: 1;
   background: rgba(34, 34, 34, 0.6);
   border-radius: 25px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .portfolio .portfolio-wrap::before {
