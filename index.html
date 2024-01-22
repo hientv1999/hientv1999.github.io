@@ -82,9 +82,11 @@
       <div class="copyright">
         Made by <strong><span>Xander</span></strong>
       </div>
-      <div class="credits">
-        2023
-      </div>
+      <div class="credits" id="currentYear"></div>
+      <script>
+        // JavaScript code to get the current year and set it in the "currentYear" div
+        document.getElementById('currentYear').innerText = new Date().getFullYear();
+      </script>
     </div>
   </footer><!-- End  Footer -->
 
