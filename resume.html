@@ -125,7 +125,7 @@
               <h4>Electronical </h4>
               <p>
               <ul>
-                <li>Microcontrollers: Arduino, ESP32, ARM (nRF52), STM32F4, Raspberry Pi 4</li>
+                <li>Microcontrollers: AVR/Atmega family, ESP32, ARM (nRF52 family), RISC-V (CH32 family), STM32F4, Raspberry Pi 4</li>
                 <li>PCB design: Altium, KiCAD, EasyEDA</li>
                 <li>Circuitry simulation: LTSpice</li>
               </ul>
@@ -169,9 +169,10 @@
               <h4>Engineering </h4>
               <p>
               <ul>
+                <li><strong>Highly optimized</strong> firmware in register level to fit more safety features and functionality in a small 8KB flash space</li>
                 <li>Created and optimized a custom <strong>BLE</strong> GATT profile for ARM in <strong>C</strong>, enabling power-efficient control and data acquisition from various I2C sensors via BLE.</li>
                 <li>Developed firmware for the ESP32 in  <strong>C++</strong>, utilized <strong>WiFi</strong> network to host an AJAX <strong>website</strong>, implemented <strong>Bluetooth</strong> to control music playback from smartphones, designed charging circuitry in <strong>Altium</strong>.</li>
-                <li>Expanded proficiency in using <strong>Github/GitLab</strong> through firmware development for the co-op company.</li>
+                <li>Expanded proficiency in using <strong>Github/GitLab</strong> through firmware development for preiovus companies.</li>
                 <li>Set up and remotely managed a <strong>LAMP</strong> server on a <strong>Raspberry Pi</strong> 4B single-board computer within a <strong>Linux</strong> environemnt via <strong>SSH</strong>.</li>
               </ul>
               </p>
@@ -181,9 +182,9 @@
                 <h4>Organizational/Administration </h4>
                 <p>
                 <ul>
+                  <li><strong>Worked in person</strong> with electrical and mechanical engineers to support the implementation of additional functionality and safety features required due to customer requirement changes.</li> 
                   <li><strong>Cooperated remotely</strong> in a team of 10+ employees to write the firmware, create PCBs and provide feedback on mechanical designs.</li>
                   <li><strong>Communicated effectively</strong> with coworker from full stack team to ensure the synchronization of the smartphone app with the firmware, including BLE commands and data structure.</li>
-                  <li><strong>Independently managed</strong> schedules for six online classes, 30+ assignments, at least 10 hours for outdoor activities, 7 hours for personal projects and 2 hours for club work weekly through the use of the Sticky Notes app, resulting in passing all the classes with A+ grades, finishing projects and club works on time while maintaining a healthy body.</li>
                 </ul>
                 </p>
             </div>           
@@ -194,26 +195,38 @@
             <!--Work Experience-->
             <h3 class="resume-title">Work Experience</h3>
             <div class="resume-item">
+              <h4>Electrical Engineer II - Sure Grip Controls Inc.</h4>
+              <h5>Jul 2024 – Present</h5>
+              <p><em> Victoria, BC </em></p>
+              <li>Led firmware development for a high-revenue analog joystick product, ensuring exceptional performance, reliability, and future-proof features.</li>
+              <li>Collaborated with mechanical and electrical engineers to enhance product design and address complex challenges.</li>
+              <li>Evaluated and integrated new sensors to replace obsolete components, ensuring continued product availability and quality.</li>
+              <li>Consistently improved and designed firmware and hardware test rigs, optimizing testing efficiency for the joystick.</li>
+              <li>Individually designed hardware and firmware a standalone mass programming tool (hardware and firmware), significantly reducing the programming tool cost by 5x and labor time by 2x.</li>
+              <li>Hands-on experience assembling and testing complex designs, including intricate armrests, to ensure seamless functionality and quality.</li>
+            </div>
+
+            <div class="resume-item">
               <h4>Electronic Prototype Engineer - Salyx Medical Inc.</h4>
-              <h5>May 2021 – Present</h5>
+              <h5>May 2021 – Aug 2024</h5>
               <p><em> Victoria, BC </em></p>
               <li>Created a Python script to extract real-time BLE data from the company's product, dynamically displaying it through charts, and simultaneously archiving the data locally.</li></li>
               <li>Designed firmware for an ARM-based device, facilitating seamless data acquisition from I2C sensors and transmission via BLE connectivity.</li></li>
             </div>
-            
-            
 
             <!--Technical Projects-->
             <h3 class="resume-title">Technical Projects</h3>
             <div class="resume-item">
+              <h4>Analog Joystick </h4>
+              <p>Programmed and optimized a firmware in C for ATTiny MCU that uses I2C, USART, ADC, DAC, PWM, Timer, math algorithm, safety feature and data logging in less than 7KB of flash space. </p>
+            </div>
+            
+            <div class="resume-item">
               <h4>Vital Monitoring System </h4>
-              <p>Engineered custom firmware for the ARM board in C, enabling BLE connectivity to smartphones for control of I2C sensors, seamless data acquisition, and bidirectional data transmission. Implemented power-saving techniques, achieving a low 2.5mA power consumption while maintaining a data transfer rate of 7.2kB/s.</p>
+              <p>Engineered custom firmware for an NRF52 MCU in C, enabling BLE connectivity to smartphones for control of I2C sensors, seamless data acquisition, and bidirectional data transmission. Implemented power-saving techniques, achieving less than 0.5mA power consumption while maintaining a data transfer rate of more than 7.2KB/s.</p>
             </div>
 
-            <div class="resume-item">
-              <h4>Desktop Smart Plant Pot </h4>
-              <p>Designed an ESP32-based PCB for automated plant watering based on soil moisture and temperature. Incorporated an advanced smart switch circuit to manage the LiFePO4 battery, solar panel, and USB-C charging sources. Resulted in a rechargeable smart plant pot with customizable alert melodies, touch controls, and a user-friendly web interface for plant management, ambient light control, and pot monitoring.</p>
-            </div>
+            
 
             <!--Club & Volunteer Experience-->
             <h3 class="resume-title">Club &amp; Volunteer Experience</h3>
@@ -260,6 +273,13 @@
             <!--References-->
             <h3 class="resume-title">References</h3>
             <div class="resume-item">
+              <h4>Richard Lyne</h4>
+              <p><em> Director of Engineering – Sure Grip Controls Inc. - Victoria, BC </em></p>
+              <p>778-807-9651</p>
+              <p>richard.lyne@suregripcontrols.com</p>
+            </div>
+
+            <div class="resume-item">
               <h4>Sergio Perez Martell</h4>
               <p><em> CTO/CEO – Salyx Medical Inc. - Victoria, BC </em></p>
               <p>250-857-9343</p>
@@ -268,17 +288,18 @@
 
             <div class="resume-item">
               <h4>Miguel Manguerra</h4>
-              <p><em>Electronic Prototype Engineer – Salyx Medical Inc. - Victoria, BC</em></p>
+              <p><em>Electrical Engineer II – Sure Grip Controls Inc. - Victoria, BC</em></p>
               <p>778-977-9021</p>
-              <p>migoymanguerra@gmail.com</p>
+              <p>miguel.manguerra@suregripcontrols.com</p>
+              <!-- <p>migoymanguerra@gmail.com</p> -->
             </div>
 
-            <div class="resume-item">
+            <!-- <div class="resume-item">
               <h4>Jordan Carlson</h4>
               <p><em>Technical Lead - Salyx Medical Inc. - Victoria, BC</em></p>
               <p>250-818-8963</p>
               <p>jordanrcarlson@gmail.com</p>
-            </div>
+            </div> -->
           </div>
         </div>
 
